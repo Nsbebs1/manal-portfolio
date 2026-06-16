@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manal Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#f8f5f1,#efe5d8);
+    color:#333;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.avatar-img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+h1{
+    margin-top:20px;
+    font-size:48px;
+    color:#7a5c38;
+}
+
+.subtitle{
+    margin-top:10px;
+    font-size:22px;
+    color:#a17d52;
+}
+
+.about{
+    max-width:700px;
+    margin:25px auto;
+    line-height:1.8;
+    font-size:18px;
+    padding:0 15px;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:32px;
+    color:#7a5c38;
+    margin-bottom:30px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.skill{
+    background:white;
+    padding:12px 20px;
+    border-radius:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.skill:hover{
+    transform:translateY(-5px);
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#8b6f47;
+    margin-bottom:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 24px;
+    text-decoration:none;
+    color:white;
+    background:#8b6f47;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.contact a:hover{
+    background:#6f5536;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    color:#777;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="profile.jpg" alt="Manal" class="avatar-img">
+
+<h1>Manal</h1>
+
+<p class="subtitle">
+Computer Science Graduate
+</p>
+
+<p class="about">
+Computer Science graduate with practical experience in Data Management and Open Data initiatives.
+Passionate about Data Analytics, Data Engineering, Artificial Intelligence, and building data-driven solutions.
+</p>
+
+</header>
+
+<section>
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+<div class="skill">SQL</div>
+<div class="skill">Python</div>
+<div class="skill">Excel</div>
+<div class="skill">Power BI</div>
+<div class="skill">Data Analysis</div>
+<div class="skill">Data Management</div>
+<div class="skill">Open Data</div>
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>IBM Data Fundamentals</h3>
+<p>Foundational knowledge in data concepts and analytics.</p>
+</div>
+
+<div class="card">
+<h3>GDPR Fundamentals</h3>
+<p>Understanding privacy, governance and data protection principles.</p>
+</div>
+
+<div class="card">
+<h3>Coursera Courses</h3>
+<p>Continuous professional learning in technology and data fields.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Open Data Report</h3>
+<p>Prepared documentation and reporting related to open data initiatives.</p>
+</div>
+
+<div class="card">
+<h3>Data Management Platform</h3>
+<p>Conducted testing and provided enhancement recommendations.</p>
+</div>
+
+<div class="card">
+<h3>Data Quality Assessment</h3>
+<p>Applied data quality dimensions and generated evaluation reports.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<a href="https://github.com/">GitHub</a>
+
+<a href="https://linkedin.com/">LinkedIn</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Manal Portfolio
+</footer>
+
+</body>
+</html>
